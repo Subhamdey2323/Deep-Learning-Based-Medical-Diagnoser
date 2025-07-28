@@ -8,3 +8,4 @@ tensorflow
 nltk
 ipynb
 ipykernel
+pillow

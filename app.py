@@ -5,6 +5,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 import numpy as np
 import pandas as pd
+import os
 
 app = Flask(__name__)
 
@@ -41,5 +42,5 @@ def predict():
     
     return render_template('result.html', patient_problem=patient_problem, disease=disease_predicted, prescription=prescription_predicted)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=False, host='0.0.0.0', port=int(os.environ.get("PORT", 10000)))
