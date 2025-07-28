@@ -4,7 +4,4 @@ scikit-learn
 nltk
 flask
 tensorflow==2.10.1
-nltk
-ipynb
 ipykernel
-pillow
