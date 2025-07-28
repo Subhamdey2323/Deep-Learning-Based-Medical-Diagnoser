@@ -32,6 +32,7 @@ Flask (for local version)
 ## Clone the repository
 
 git clone https://github.com/your-username/Medical-Diagnosis-Assistant.git
+
 cd Medical-Diagnosis-Assistant
 
 ## Install dependencies
