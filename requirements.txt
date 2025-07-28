@@ -4,7 +4,7 @@ scikit-learn
 nltk
 streamlit
 flask
-tensorflow
+tensorflow==2.10.1
 nltk
 ipynb
 ipykernel
