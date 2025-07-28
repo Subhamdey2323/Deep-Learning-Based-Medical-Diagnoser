@@ -3,5 +3,5 @@ pandas
 scikit-learn
 nltk
 flask
-tensorflow==2.10.1
+tensorflow
 ipykernel
